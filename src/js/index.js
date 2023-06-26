@@ -240,11 +240,11 @@ class ElementAos extends HandleAos {
     }
     aosSkills () {
         const skillsTextHeader = document.querySelectorAll('.skills-text-header');
-        const skillsPersen = document.querySelectorAll('.skills .persen');
+        const skillsCol = document.querySelectorAll('.skills .col');
         
         this.kondisiElement(skillsTextHeader, true, true, true, 0);
-        for (let i = 0; i < skillsPersen.length; i++) {
-            this.kondisiElement(skillsPersen, false, true, true, i, true);
+        for (let i = 0; i < skillsCol.length; i++) {
+            this.kondisiElement(skillsCol, false, true, true, i, true);
         }
     }
     aosPortfolio () {
