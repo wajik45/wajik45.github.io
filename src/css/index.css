@@ -33,6 +33,7 @@ body {
     right: 1rem;
     transform: translateX(150%);
     transition: .3s;
+    color: var(--white2);
 }
 .panah-atas.return {
     transform: translateX(0);
