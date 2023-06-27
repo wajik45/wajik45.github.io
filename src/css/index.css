@@ -357,7 +357,7 @@ li {
     opacity: 1;
 }
 .skills .col img {
-    width: 80px;
+    width: 75px;
 }
 .skills .col p {
     color: var(--white-2);
@@ -368,7 +368,7 @@ li {
 }
 @media (max-width: 768px) {
     .skills .col {
-        max-width: 180px;
+        max-width: 185px;
         padding: 1rem;
         margin: .5rem;
     }
