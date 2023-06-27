@@ -381,11 +381,6 @@ li {
         max-width: 100%;
     }
 }
-@media (min-width: 1080px) {
-    .skills .col {
-        max-width: 250px;
-    }
-}
 
 /* PORTFOLIO */
 .portfolio-text-header {
