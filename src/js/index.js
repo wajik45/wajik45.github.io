@@ -163,8 +163,8 @@ class HandleForm extends HandleAlert {
       this.button.innerHTML = "Kirim";
       this.form.reset();
    }
-   gagal() {
-      this.alert("Error, gagal mengirim pesan!", "merah");
+   gagal(error) {
+      this.alert(`${error}, gagal mengirim pesan!`, "merah");
       this.form.classList.remove("submit");
       this.button.innerHTML = "Kirim";
       this.form.reset();
@@ -182,7 +182,7 @@ class Form extends HandleForm {
          });
          this.berhasil();
       } catch (error) {
-         this.gagal();
+         this.gagal(error.message);
       }
    }
    async submit() {
