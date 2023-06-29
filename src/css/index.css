@@ -355,7 +355,7 @@ li {
    max-width: 250px;
    display: flex;
    flex-direction: column;
-   box-shadow: 0 0 20px 1px rgb(20, 0, 4);
+   box-shadow: 0 0 20px -5px rgb(20, 0, 4);
    padding: 2rem;
    margin: 1rem;
    transform: translateY(100px) scale(0.8);
@@ -403,7 +403,6 @@ li {
    opacity: 1;
 }
 .portfolio .row-dua {
-   width: 90%;
    margin: 1rem 0;
    display: flex;
    flex-wrap: wrap;
@@ -422,14 +421,15 @@ li {
    filter: blur(1px);
 }
 .portfolio .col {
-   width: 310px;
-   height: 310px;
-   padding: 1rem;
+   min-width: 320px;
+   min-height: 320px;
+   padding: 2rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   gap: 1.5rem;
    align-items: center;
-   box-shadow: 0 0 60px 0 rgb(20, 0, 4);
+   box-shadow: 0 0 60px -10px rgb(20, 0, 4);
    transform: translateY(100px);
    opacity: 0;
    transition: 0.8s;
@@ -443,12 +443,17 @@ li {
    box-shadow: 0 0 1px 0 rgb(20, 0, 4);
    padding: 0.4rem 0.8rem;
 }
-.portfolio h4 {
-   margin: 1.2rem 0;
+.portfolio .teknologi {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-.portfolio img {
-   width: 128px;
-   margin: 1rem;
+.portfolio .teknologi img {
+   width: 28px;
+   margin: 0 0.3rem;
+}
+.portfolio .img-header {
+   width: 120px;
 }
 .portfolio .row-tiga {
    margin: 2rem 0;
