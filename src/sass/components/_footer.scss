@@ -1,0 +1,31 @@
+#footer {
+   width: 100%;
+   box-shadow: 0 0 50px 0 rgb(0, 0, 0);
+   .footer {
+      padding: 1rem 0;
+      text-align: center;
+      .row-satu {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         a {
+            font-size: 1.5rem;
+            margin: 1rem;
+         }
+      }
+      .row-dua {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         i {
+            color: salmon;
+         }
+      }
+      p {
+         padding: 1rem 0;
+      }
+      i {
+         padding: 1rem 0;
+      }
+   }
+}

@@ -1,0 +1,67 @@
+@import "../mixin";
+
+.portfolio {
+   .row-dua {
+      margin: 1rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 25px;
+   }
+   .portfolio-text-header {
+      @include transform(translateY(170px), translateY(0), 0.8s);
+   }
+   .back {
+      position: absolute;
+      z-index: -99;
+      display: none;
+      h1 {
+         font-size: 8rem;
+         color: rgba(139, 123, 130, 0.5);
+         filter: blur(1px);
+      }
+   }
+   .col {
+      min-width: 320px;
+      min-height: 320px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1.5rem;
+      align-items: center;
+      box-shadow: 0 0 60px -10px rgb(20, 0, 4);
+      @include transform(translateY(100px), translateY(0), 0.8s);
+      a {
+         background-color: rgba(187, 54, 92, 0.5);
+         box-shadow: 0 0 1px 0 rgb(20, 0, 4);
+         padding: 0.4rem 0.8rem;
+      }
+   }
+   .teknologi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+         width: 28px;
+         margin: 0 0.3rem;
+      }
+   }
+   .img-header {
+      width: 120px;
+   }
+   .row-tiga {
+      margin: 2rem 0;
+      box-shadow: 0 0 40px -5px rgb(20, 0, 4);
+      padding: 0.4rem 0.8rem;
+   }
+}
+
+@media (min-width: 1200px) {
+   .portfolio {
+      .back {
+         display: inline-block;
+      }
+   }
+}

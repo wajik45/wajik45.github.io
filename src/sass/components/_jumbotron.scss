@@ -1,0 +1,54 @@
+@import "../variable";
+@import "../mixin";
+
+.jumbotron {
+   padding: 4rem 0;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .row-satu {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap-reverse;
+   }
+   .col-satu,
+   .col-dua {
+      margin: 1rem;
+   }
+   .jumbotron-text {
+      @include transform(translateX(-200px), translateX(0), 0.8s);
+   }
+   .jumbotron-img {
+      @include transform(rotateY(180deg), rotateY(0), 0.8s);
+   }
+   h1 {
+      font-size: 4rem;
+   }
+   p {
+      font-size: 1.5rem;
+   }
+   a {
+      @include button;
+      display: inline-block;
+      margin-top: 4rem;
+   }
+   span {
+      color: $white-2;
+   }
+   img {
+      width: 230px;
+      border-radius: 50%;
+      background: $white-1;
+      border: 3px solid $white-1;
+   }
+}
+@media (max-width: 768px) {
+   .jumbotron {
+      h1 {
+         font-size: 3.5rem;
+      }
+   }
+}
