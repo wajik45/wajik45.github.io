@@ -30,7 +30,6 @@ window.onclick = ({ target }) => {
    // PANAH ATAS
    panahAtas.click(target);
 };
-
 /* READY */
 const ready = (_) => {
    const loader = document.getElementById("loader");
@@ -39,7 +38,6 @@ const ready = (_) => {
    }
    return (loader.innerHTML = "");
 };
-
 /* UMUR */
 ((_) => {
    const umur = document.querySelector(".tentang .umur");
@@ -49,7 +47,6 @@ const ready = (_) => {
 
    umur.innerHTML = ambilUmur;
 })();
-
 /* COPYRIGHT FOOTER */
 ((_) => {
    return {
@@ -60,7 +57,6 @@ const ready = (_) => {
       },
    };
 })().tampil();
-
 /* HANDLE PANAH ATAS */
 const panahAtas = {
    panahAtas: document.querySelector(".panah-atas"),
