@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    #to-top.return {
+       opacity: 1;
+       transform: translateX(0);
+    }
+    #navbar .navbar-nav.return {
+       opacity: 1;
+       transform: translateX(0);
+    }
+    #navbar .navbar-menu.return {
+       justify-content: center;
+    }
+    #navbar .satu.return {
+       width: 100%;
+       transform: rotate(45deg) translateX(5px);
+    }
+    #navbar .dua.return {
+       opacity: 0;
+    }
+    #navbar .tiga.return {
+       width: 100%;
+       transform: rotate(-45deg) translateX(5px);
+    }
+    #navbar {
+       transform: translateY(-100%);
+       opacity: 0;
+       transition: .8s;
+    }
+    #navbar.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #navbar span.menu-span {
+       display: block;
+       height: 0.25rem;
+       border-radius: 9999px;
+       background-color: rgb(226, 232, 240);
+       transition: .2s;
+    }
+    #navbar span.menu-span:hover {
+       border-color: rgb(148, 163, 184);
+    }
+    /* AOS */
+    #jumbotron .jumbotron-text {
+       transition: .8s;
+       transform: translateX(-200px);
+       opacity: 0;
+    }
+    #jumbotron .jumbotron-text.return {
+       transform: translateX(0);
+       opacity: 1;
+    }
+    #jumbotron .jumbotron-img {
+       transition: 0.8s;
+       transform: rotateY(180deg);
+       opacity: 0;
+    }
+    #jumbotron .jumbotron-img.return {
+       transform: rotateY(0);
+       opacity: 1;
+    }
+    #tentang .tentang-header {
+       transition: .8s;
+       transform: translateY(120px);
+       opacity: 0;
+    }
+    #tentang .tentang-header.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #tentang .tentang-icon {
+       transition: .8s;
+       transform: translateX(200px);
+       opacity: 0;
+    }
+    #tentang .tentang-icon.return {
+       transform: translateX(0);
+       opacity: 1;
+    }
+    #tentang .tentang-text {
+       transition: .8s;
+       transform: translateY(100px);
+       opacity: 0;
+    }
+    #tentang .tentang-text.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #tentang .tentang-img {
+       transition: .8s;
+       transform: rotateY(180deg);
+       opacity: 0;
+    }
+    #tentang .tentang-img.return {
+       transform: rotateY(0);
+       opacity: 1;
+    }
+    #skills .skills-header {
+       transition: .8s;
+       transform: translateY(120px);
+       opacity: 0;
+    }
+    #skills .skills-header.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #skills .skills-card {
+       transition: 0.8s;
+       transform: translateY(100px);
+       opacity: 0;
+       scale: 0.8;
+    }
+    #skills .skills-card.return {
+       transform: translateY(0);
+       opacity: 1;
+       scale: 1;
+    }
+    #portfolio .portfolio-header {
+       transition: .8s;
+       transform: translateY(120px);
+       opacity: 0;
+    }
+    #portfolio .portfolio-header.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #portfolio .portfolio-card {
+       transition: 0.8s;
+       transform: translateY(100px);
+       opacity: 0;
+    }
+    #portfolio .portfolio-card.return {
+       transform: translateY(0);
+       opacity: 1;
+    }
+    #form-alert .merah {
+       color: #ea868f;
+       background-color: #2c0b0e;
+       border-color: #842029;
+    }
+    #form-alert .kuning {
+       color: #ffda6a;
+       background-color: #332701;
+       border-color: #997404;
+    }
+    #form-alert .ijo {
+       color: #75b798;
+       background-color: #051b11;
+       border-color: #0f5132;
+    }
+    .loader {
+       width: 1rem;
+       height: 1rem;
+       border: 2px solid #FFF;
+       border-radius: 50%;
+       display: inline-block;
+       position: relative;
+       box-sizing: border-box;
+       animation: rotation 1s linear infinite;
+       }
+    .loader::after {
+       content: '';  
+       box-sizing: border-box;
+       position: absolute;
+       left: 0;
+       top: 0;
+       background: #FF3D00;
+       width: 5px;
+       height: 5px;
+       transform: translate(-50%, 50%);
+       border-radius: 50%;
+    }
+    .loader-dua {
+       width: 48px;
+       height: 48px;
+       border: 2px solid #FFF;
+       border-radius: 50%;
+       display: inline-block;
+       position: relative;
+       box-sizing: border-box;
+       animation: rotation 1s linear infinite;
+    }
+    .loader-dua::after {
+       content: '';  
+       box-sizing: border-box;
+       position: absolute;
+       left: 0;
+       top: 0;
+       background: #FF3D00;
+       width: 16px;
+       height: 16px;
+       transform: translate(-50%, 50%);
+       border-radius: 50%;
+    }    
+    @keyframes rotation {
+       0% {
+          transform: rotate(0deg);
+       }
+       100% {
+          transform: rotate(360deg);
+       }
+    }
+ }

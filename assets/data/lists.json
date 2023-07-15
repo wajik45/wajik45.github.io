@@ -1,0 +1,208 @@
+{
+   "lists": {
+      "navbar": [
+         {
+            "href": "#",
+            "textContent": "Home"
+         },
+         {
+            "href": "#tentang",
+            "textContent": "Tentang"
+         },
+         {
+            "href": "#skills",
+            "textContent": "Skills"
+         },
+         {
+            "href": "#portfolio",
+            "textContent": "Portfolio"
+         },
+         {
+            "href": "#kontak",
+            "textContent": "Kontak"
+         }
+      ],
+      "skills": [
+         {
+            "src": "assets/icons/skills/cdr.png",
+            "title": "CorelDRAW",
+            "description": "CorelDRAW adalah aplikasi desain grafis 2D digital yang berbasis vektor."
+         },
+         {
+            "src": "assets/icons/skills/illustrator.png",
+            "title": "Illustrator",
+            "description": "Adobe Illustrator adalah program editor grafis vektor terkemuka, dikembangkan dan dipasarkan oleh Adobe Systems."
+         },
+         {
+            "src": "assets/icons/skills/photoshop.png",
+            "title": "Photoshop",
+            "description": "Adobe Photoshop adalah perangkat lunak editor citra buatan Adobe Systems yang dikhususkan untuk pengeditan foto/gambar dan pembuatan efek."
+         },
+         {
+            "src": "assets/icons/skills/html.png",
+            "title": "HTML",
+            "description": "Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet."
+         },
+         {
+            "src": "assets/icons/skills/css.png",
+            "title": "CSS",
+            "description": "Cascading Style Sheet merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam."
+         },
+         {
+            "src": "assets/icons/skills/js.png",
+            "title": "JavaScript",
+            "description": "JavaScript adalah suatu bahasa pemrograman tingkat tinggi dan dinamis."
+         },
+         {
+            "src": "assets/icons/skills/ts.png",
+            "title": "TypeScript",
+            "description": "TypeScript adalah bahasa pemrograman tingkat tinggi yang dikembangkan oleh Microsoft dengan menambahkan pengetikan statis dengan anotasi tipe opsional ke JavaScript."
+         },
+         {
+            "src": "assets/icons/skills/sass.png",
+            "title": "SASS",
+            "description": "Sass adalah bahasa skrip preprosesor yang ditafsirkan atau dikompilasi ke dalam Cascading Style Sheets."
+         },
+         {
+            "src": "assets/icons/skills/tailwindcss.png",
+            "title": "Tailwind CSS",
+            "description": "Tailwind CSS adalah kerangka kerja CSS yang di dalamnya terdapat sekumpulan utility classes untuk membangun antarmuka kustom dengan cepat."
+         },
+         {
+            "src": "assets/icons/skills/react.png",
+            "title": "React",
+            "description": "React adalah library JavaScript yang digunakan untuk membangun user interface yang interaktif berbasis component."
+         }
+      ],
+      "portfolio": [
+         {
+            "title": "WPAP Art",
+            "src": "assets/icons/portfolio/astronaut.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/cdr.png",
+                  "alt": "CorelDRAW",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/illustrator.png",
+                  "alt": "Illustrator",
+                  "width": "32"
+               }
+            ],
+            "href": "https://pinterest.com/wajik_45"
+         },
+         {
+            "title": "Al-Qur'an Digital",
+            "src": "assets/icons/portfolio/quran.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/bootstrap.png",
+                  "alt": "Bootstrap",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/react.png",
+                  "alt": "React",
+                  "width": "32"
+               }
+            ],
+            "href": "https://lengkong-quran.vercel.app/"
+         },
+         {
+            "title": "Website Undangan",
+            "src": "assets/icons/portfolio/invitation.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/html.png",
+                  "alt": "HTML",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/css.png",
+                  "alt": "CSS",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/js.png",
+                  "alt": "JavaScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://haikalutoo.github.io/undangan"
+         },
+         {
+            "title": "Website Portfolio",
+            "src": "assets/icons/portfolio/portfolio.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/html.png",
+                  "alt": "HTML",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/tailwindcss.png",
+                  "alt": "Tailwind CSS",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/ts.png",
+                  "alt": "TypeScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://haikalutoo.github.io"
+         },
+         {
+            "title": "Pencarian Film",
+            "src": "assets/icons/portfolio/searching.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/html.png",
+                  "alt": "HTML",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/bootstrap.png",
+                  "alt": "Bootstrap",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/js.png",
+                  "alt": "JavaScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://haikalutoo.github.io/movies-db"
+         },
+         {
+            "title": "Kalkulator",
+            "src": "assets/icons/portfolio/calculator.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/html.png",
+                  "alt": "HTML",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/css.png",
+                  "alt": "CSS",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/js.png",
+                  "alt": "JavaScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://haikalutoo.github.io/kalkulator-santuy"
+         }
+      ]
+   }
+}

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+   lang="en"
+   class="m-lg:text-[90%] scroll-smooth overflow-x-hidden"
+   style="color-scheme: dark"
+>
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-         name="google-site-verification"
-         content="NFXqvtCsG3PUuIGfe0w7OHtmYdqT_QzQhkNSQSDN8Uo"
-      />
       <meta
          name="description"
          itemprop="description"
@@ -17,550 +17,330 @@
          content="wajik45, wajik portfolio, lengkon quran, @wajik45"
       />
       <title>My Portfolio | Haikal</title>
-      <link rel="stylesheet" href="src/css/main.css" />
+      <link rel="shortcut icon" href="assets/icons/ico/favicon.ico?" type="image/x-icon">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
-         href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-         rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Tinos:wght@400;700&display=swap"
+      rel="stylesheet"
       />
-      <link
-         rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-      />
-      <link
-         rel="shortcut icon"
-         href="src/assets/icons/ico/favicon.ico?"
-         type="image/x-icon"
-      />
+      <link href="./assets/css/main.css" rel="stylesheet" />
    </head>
-   <body>
-      <i class="bi bi-arrow-up-circle panah-atas"></i>
-
-      <!-- NAVBAR -->
-      <section id="navbar">
-         <div class="container">
-            <nav class="navbar">
+   <body
+      class="font-open-sans overflow-x-hidden relative min-h-screen bg-gradient-to-r from-biru-tua to-merah-sedeng text-slate-200"
+   >
+      <div
+         id="to-top"
+         class="fixed cursor-pointer bottom-4 right-4 text-3xl translate-x-20 opacity-0 transition duration-300"
+      >
+         🔝
+      </div>
+      <div
+         id="navbar"
+         class="fixed shadow-dikit-be w-full z-10 bg-gradient-to-r from-biru-tua/80 to-merah-sedeng/80 backdrop-blur-md"
+      >
+         <nav
+            class="container mx-auto px-4 flex justify-between items-center min-h-[65px] relative"
+         >
+            <div class="group">
                <a
-                  href="https://instagram.com/wajik45"
-                  target="_blank"
-                  class="navbar-logo"
+                  href="./"
+                  class="font-semibold text-2xl transition ease-in-out inline-block group-hover:text-slate-400 group-hover:-translate-y-1"
                   >Haikal</a
                >
-               <div class="navbar-nav">
-                  <ul>
-                     <li>
-                        <a class="navbar-a" href="#">
-                           <i class="bi bi-house-fill"></i> Beranda
-                        </a>
-                     </li>
-                     <li>
-                        <a class="navbar-a" href="#tentang">
-                           <i class="bi bi-person-fill"></i> Tentang
-                        </a>
-                     </li>
-                     <li>
-                        <a class="navbar-a" href="#skills">
-                           <i class="bi bi-list-check"></i> Skills
-                        </a>
-                     </li>
-                     <li>
-                        <a class="navbar-a" href="#portfolio">
-                           <i class="bi bi-images"></i> Portfolio
-                        </a>
-                     </li>
-                     <li>
-                        <a class="navbar-a" href="#kontak">
-                           <i class="bi bi-person-lines-fill"></i> Kontak
-                        </a>
-                     </li>
-                  </ul>
+            </div>
+            <div
+               class="navbar-nav flex transition duration-300 m-md:bg-gradient-to-r from-biru-tua to-merah-sedeng m-md:py-12 m-md:pl-12 m-md:pr-36 m-md:absolute m-md:top-[120%] m-md:right-4 m-md:flex-col-reverse m-md:rounded-l-md m-md:translate-x-[130%] m-md:opacity-0"
+            >
+               <div
+                  class="navbar-list flex items-center m-md:flex-col m-md:items-start"
+               ></div>
+               <div class="ml-10 m-md:ml-0 m-md:my-3">
                   <a
-                     href="src/assets/document/CV-Muhamad-Haikal.pdf"
-                     target="_blank"
-                     class="navbar-download navbar-a"
+                     href="./assets/doc/CV-Muhamad-Haikal.pdf"
+                     class="py-2 px-3 inline-block min-w-fit border-2 border-slate-200 w-max rounded-full transition hover:text-slate-400 hover:border-slate-400"
                      >Download CV</a
                   >
                </div>
-               <div class="navbar-menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-               </div>
-            </nav>
-         </div>
-      </section>
-
-      <!-- JUMBOTRON -->
-      <section id="jumbotron">
-         <div class="container">
-            <div class="jumbotron">
-               <div id="loader"></div>
-               <div class="row-satu">
-                  <div class="col-satu">
-                     <p class="jumbotron-text">Halo semua saya,</p>
-                     <h1 class="jumbotron-text">Muhamad Haikal</h1>
-                     <p class="jumbotron-text">
-                        Desainer & <span>Frontend Developer</span>
-                     </p>
-                     <a href="#kontak" class="jumbotron-kontak jumbotron-text"
-                        >Hubungi Saya</a
-                     >
-                  </div>
-                  <div class="col-dua">
-                     <img
-                        class="jumbotron-img"
-                        src="src/assets/images/profile/satu.png"
-                        alt="profile"
-                     />
-                  </div>
-               </div>
+            </div>
+            <div
+               class="navbar-menu hidden m-md:flex w-9 h-9 flex-col justify-evenly group cursor-pointer"
+            >
+               <span class="satu block w-[70%] menu-span"></span>
+               <span class="dua block w-full menu-span"></span>
+               <span class="tiga block w-[50%] menu-span"></span>
+            </div>
+         </nav>
+      </div>
+      <div id="jumbotron">
+         <div
+            class="container relative mx-auto px-4 flex min-h-screen py-[65px] justify-evenly items-center m-lg:flex-col-reverse"
+         >
+            <div
+               id="loader-dua"
+               class="w-full h-full justify-center items-center absolute hidden"
+            >
+               <div class="loader-dua"></div>
+            </div>
+            <div class="my-4 m-lg:w-full">
+               <h3 class="jumbotron-text jumbotron-animation text-3xl">
+                  Halo Semua saya,
+               </h3>
+               <h1
+                  class="jumbotron-text jumbotron-animation text-7xl font-semibold my-4 m-lg:text-6xl"
+               >
+                  Muhamad Haikal
+               </h1>
+               <p class="jumbotron-text jumbotron-animation text-2xl">
+                  Desainer & Frontend Developer
+               </p>
+               <a
+                  href="#kontak"
+                  class="jumbotron-text jumbotron-animation py-2 px-3 inline-block text-lg font-semibold min-w-fit border-slate-200 border-2 w-max rounded-full mt-12 hover:text-slate-400 hover:border-slate-400"
+                  >Hubungi Saya</a
+               >
+            </div>
+            <div class="my-4">
+               <img
+                  src="assets/pictures/satu.png"
+                  width="250"
+                  alt="profile"
+                  class="jumbotron-img jumbotron-animation bg-white rounded-full border-white border-4 m-sm:w-56"
+               />
             </div>
          </div>
-      </section>
-
-      <!-- TENTANG -->
+      </div>
       <div id="tentang">
-         <div class="container">
-            <div class="tentang">
-               <div class="row-satu">
-                  <h2 class="tentang-text-header">Tentang Saya</h2>
-                  <p class="tentang-text-header">Pengenalan</p>
+         <div class="container mx-auto px-4 py-[80px]">
+            <div class="text-center">
+               <h2 class="tentang-header tentang-aos text-3xl font-semibold">
+                  Tentang Saya
+               </h2>
+               <p class="tentang-header tentang-aos mt-5 text-xl">Pengenalan</p>
+            </div>
+            <div
+               class="flex my-24 justify-center items-center gap-10 m-md:flex-col"
+            >
+               <div>
+                  <img
+                     src="assets/pictures/dua.jpg"
+                     alt="profile-2"
+                     width="300"
+                     class="tentang-img tentang-aos rounded-lg"
+                  />
                </div>
-               <div class="row-dua">
-                  <div class="col satu">
-                     <img
-                        class="tentang-img"
-                        src="src/assets/images/profile/dua.jpg"
-                        alt=""
-                     />
-                  </div>
-                  <div class="col dua">
-                     <p class="tentang-text">
-                        Saya Haikal, umur saya <span class="umur"></span> tahun,
-                        Saya meyukai hal yang berhubungan dengan seni, komputer
-                        dan teknologi. Saya aktif dibidang desain dan web
+               <div class="basis-1/2 flex flex-col gap-10">
+                  <div>
+                     <p class="tentang-text tentang-aos text-justify">
+                        Saya Haikal, umur saya
+                        <span class="tentang-age"></span> tahun, Saya meyukai
+                        hal yang berhubungan dengan seni, komputer dan
+                        teknologi. Saya aktif dibidang desain dan web
                         development, saat ini saya mencari peluang dimana saya
                         dapat menerapkan pengetahuan saya, mempelajari hal-hal
                         baru dan meningkatkan pengetahuan saya ke tingkat yang
                         baru.
                      </p>
-                     <div class="sosmed">
-                        <a
-                           class="tentang-icon"
-                           href="https://github.com/haikalutoo"
-                           target="_blank"
+                  </div>
+                  <div class="flex justify-center">
+                     <a
+                        href="https://github.com/haikalutoo"
+                        target="_blank"
+                        class="tentang-icon tentang-aos mx-4 transition hover:text-slate-400"
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="36"
+                           height="36"
+                           fill="currentColor"
+                           class="bi bi-github"
+                           viewBox="0 0 16 16"
                         >
-                           <i class="bi bi-github"></i>
-                        </a>
-                        <a
-                           class="tentang-icon"
-                           href="https://pinterest.com/wajik_45"
-                           target="_blank"
+                           <path
+                              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                           />
+                        </svg>
+                     </a>
+                     <a
+                        href="https://pinterest.com/wajik_45"
+                        target="_blank"
+                        class="tentang-icon tentang-aos mx-4 transition hover:text-slate-400"
+                     >
+                        <svg
+                           xmlns="http://www.w3.org/2000/svg"
+                           width="36"
+                           height="36"
+                           fill="currentColor"
+                           class="bi bi-pinterest"
+                           viewBox="0 0 16 16"
                         >
-                           <i class="bi bi-pinterest"></i>
-                        </a>
-                        <a
-                           class="tentang-icon"
-                           href="https://linkedin.com"
-                           target="_blank"
-                        >
-                           <i class="bi bi-linkedin"></i>
-                        </a>
-                     </div>
+                           <path
+                              d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"
+                           />
+                        </svg>
+                     </a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-
-      <!-- SKILLS -->
       <div id="skills">
-         <div class="container">
-            <div class="skills">
-               <div class="row-satu">
-                  <h2 class="skills-text-header">Skills</h2>
-                  <p class="skills-text-header">Level kemampuan</p>
-               </div>
-               <div class="row-dua">
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/cdr.png"
-                        alt="corel-draw"
-                     />
-                     <h3>CorelDRAW</h3>
-                     <p>
-                        CorelDRAW adalah aplikasi desain grafis 2D digital yang
-                        berbasis vektor.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/illustrator.png"
-                        alt="adobe-illustrator"
-                     />
-                     <h3>Adobe Illustrator</h3>
-                     <p>
-                        Adobe Illustrator adalah program editor grafis vektor
-                        terkemuka, dikembangkan dan dipasarkan oleh Adobe
-                        Systems.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/photoshop.png"
-                        alt="adobe-photoshop"
-                     />
-                     <h3>Adobe Photoshop</h3>
-                     <p>
-                        Adobe Photoshop adalah perangkat lunak editor citra
-                        buatan Adobe Systems yang dikhususkan untuk pengeditan
-                        foto/gambar dan pembuatan efek.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img src="src/assets/icons/skills/html.png" alt="HTML" />
-                     <h3>HTML</h3>
-                     <p>
-                        Hypertext Markup Language adalah bahasa markah standar
-                        untuk dokumen yang dirancang untuk ditampilkan di
-                        peramban internet.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img src="src/assets/icons/skills/css.png" alt="CSS" />
-                     <h3>CSS</h3>
-                     <p>
-                        Cascading Style Sheet merupakan aturan untuk mengatur
-                        beberapa komponen dalam sebuah web sehingga akan lebih
-                        terstruktur dan seragam.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/js.png"
-                        alt="JavaScript"
-                     />
-                     <h3>JavaScript</h3>
-                     <p>
-                        JavaScript adalah suatu bahasa pemrograman tingkat
-                        tinggi dan dinamis.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img src="src/assets/icons/skills/sass.png" alt="SASS" />
-                     <h3>SASS</h3>
-                     <p>
-                        Sass adalah bahasa skrip preprosesor yang ditafsirkan
-                        atau dikompilasi ke dalam Cascading Style Sheets.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/bootstrap.png"
-                        alt="bootstrap"
-                     />
-                     <h3>Bootstrap</h3>
-                     <p>
-                        Bootstrap adalah kerangka kerja CSS yang sumber terbuka
-                        dan bebas untuk merancang situs web dan aplikasi web.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img src="src/assets/icons/skills/react.png" alt="react" />
-                     <h3>React</h3>
-                     <p>
-                        React adalah library JavaScript yang digunakan untuk
-                        membangun user interface yang interaktif berbasis
-                        component.
-                     </p>
-                  </div>
-                  <!-- <div class="col">
-                     <img src="src/assets/icons/skills/word.svg" alt="word" />
-                     <h3>Microsoft Word</h3>
-                     <p>
-                        Microsoft Word atau Microsoft Office Word atau Word
-                        adalah perangkat lunak pengolah kata andalan Microsoft.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img
-                        src="src/assets/icons/skills/powerpoint.svg"
-                        alt="power-point"
-                     />
-                     <h3>Microsoft Power Point</h3>
-                     <p>
-                        Microsoft Powerpoint adalah sebuah program aplikasi
-                        microsoft office yang berguna sebagai media presentasi
-                        dengan menggunakan beberapa slide.
-                     </p>
-                  </div>
-                  <div class="col">
-                     <img src="src/assets/icons/skills/excel.svg" alt="excel" />
-                     <h3>Microsoft Excel</h3>
-                     <p>
-                        Microsoft Excel adalah aplikasi untuk otomatisasi
-                        manipulasi data dalam berbagai bentuk, seperti rumus,
-                        perhitungan dasar, manipulasi data, pembuatan tabel,
-                        grafik hingga pengelolaan data.
-                     </p>
-                  </div> -->
-               </div>
+         <div class="container mx-auto px-4 py-[80px]">
+            <div class="text-center">
+               <h2 class="skills-header skills-aos text-3xl font-semibold">
+                  Skills
+               </h2>
+               <p class="skills-header skills-aos mt-5 text-xl">
+                  Level Kemampuan
+               </p>
+            </div>
+            <div class="my-24 flex">
+               <div
+                  class="skills-list w-full flex flex-wrap justify-center gap-5"
+               ></div>
             </div>
          </div>
       </div>
-
-      <!-- PORTFOLIO -->
       <div id="portfolio">
-         <div class="container">
-            <div class="portfolio">
-               <div class="row-satu">
-                  <h2 class="portfolio-text-header">Portfolio</h2>
-                  <p class="portfolio-text-header">
-                     Karya yang telah saya buat
-                  </p>
-               </div>
-               <div class="row-dua">
-                  <div class="back">
-                     <h1>PROJECTS</h1>
-                  </div>
-                  <div class="col">
-                     <h4>WPAP Art</h4>
-                     <img
-                        class="img-header"
-                        src="src/assets/icons/portfolio/astronaut.png"
-                        alt="astronaut"
-                     />
-                     <div class="teknologi">
-                        <!-- <p>Optional :</p> -->
-                        <img
-                           src="src/assets/icons/skills/cdr.png"
-                           alt="Corel Draw"
-                        />
-                        <img
-                           src="src/assets/icons/skills/illustrator.png"
-                           alt="Adobe Illustrator"
-                        />
-                     </div>
-                     <a href="https://pinterest.com/wajik_45" target="_blank">
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <h4>Al-Qur'an Digital</h4>
-                     <img
-                        src="src/assets/icons/portfolio/quran.png"
-                        alt="Al-Quran"
-                     />
-                     <div class="teknologi">
-                        <img
-                           src="src/assets/icons/skills/bootstrap.png"
-                           alt="bootstrap"
-                        />
-                        <img
-                           src="src/assets/icons/skills/react.png"
-                           alt="react"
-                        />
-                     </div>
-                     <a
-                        href="https://lengkong-quran.vercel.app/"
-                        target="_blank"
-                     >
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <h4>Website Undangan</h4>
-                     <img
-                        src="src/assets/icons/portfolio/invitation.png"
-                        alt="undangan"
-                     />
-                     <div class="teknologi">
-                        <img
-                           src="src/assets/icons/skills/html.png"
-                           alt="HTML"
-                        />
-                        <img src="src/assets/icons/skills/css.png" alt="CSS" />
-                        <img
-                           src="src/assets/icons/skills/js.png"
-                           alt="JavaScript"
-                        />
-                     </div>
-                     <a
-                        href="https://haikalutoo.github.io/undangan"
-                        target="_blank"
-                     >
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <h4>Website Portfolio</h4>
-                     <img
-                        src="src/assets/icons/portfolio/portfolio.png"
-                        alt="portfolio"
-                     />
-                     <div class="teknologi">
-                        <img
-                           src="src/assets/icons/skills/html.png"
-                           alt="HTML"
-                        />
-                        <img
-                           src="src/assets/icons/skills/sass.png"
-                           alt="SASS"
-                        />
-                        <img
-                           src="src/assets/icons/skills/js.png"
-                           alt="JavaScript"
-                        />
-                     </div>
-                     <a href="https://haikalutoo.github.io">
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <h4>Pencarian Film</h4>
-                     <img
-                        src="src/assets/icons/portfolio/searching.png"
-                        alt="pencarian-film"
-                     />
-                     <div class="teknologi">
-                        <img
-                           src="src/assets/icons/skills/html.png"
-                           alt="HTML"
-                        />
-                        <img
-                           src="src/assets/icons/skills/bootstrap.png"
-                           alt="bootstrap"
-                        />
-                        <img
-                           src="src/assets/icons/skills/js.png"
-                           alt="JavaScript"
-                        />
-                     </div>
-                     <a
-                        href="https://haikalutoo.github.io/movies-db"
-                        target="_blank"
-                     >
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-                  <div class="col">
-                     <h4>Kalkulator</h4>
-                     <img
-                        src="src/assets/icons/portfolio/calculator.png"
-                        alt="kalkulator"
-                     />
-                     <div class="teknologi">
-                        <img
-                           src="src/assets/icons/skills/html.png"
-                           alt="HTML"
-                        />
-                        <img src="src/assets/icons/skills/css.png" alt="CSS" />
-                        <img
-                           src="src/assets/icons/skills/js.png"
-                           alt="JavaScript"
-                        />
-                     </div>
-                     <a
-                        href="https://haikalutoo.github.io/kalkulator-santuy"
-                        target="_blank"
-                     >
-                        Kunjungi
-                        <i class="bi bi-box-arrow-in-up-right"></i>
-                     </a>
-                  </div>
-               </div>
-               <div class="row-tiga">
-                  <a href="https://github.com/haikalutoo" target="_blank">
-                     Lihat Semua
-                     <i class="bi bi-box-arrow-in-up-right"></i>
-                  </a>
-               </div>
+         <div class="container mx-auto px-4 py-[80px]">
+            <div class="text-center">
+               <h2
+                  class="portfolio-header portfolio-aos text-3xl font-semibold"
+               >
+                  Portfolio
+               </h2>
+               <p class="portfolio-header portfolio-aos mt-5 text-xl">
+                  Projects
+               </p>
+            </div>
+            <div class="my-24">
+               <div
+                  class="portfolio-list w-full flex gap-4 justify-center flex-wrap"
+               ></div>
+            </div>
+            <div class="text-center mb-20">
+               <a
+                  href="https://github.com/haikalutoo"
+                  target="_blank"
+                  class="portfolio-card portfolio-aos inline-block border border-slate-200 py-1 px-3 rounded-sm transition hover:text-slate-400 hover:border-slate-400"
+                  >Lihat semua ↗</a
+               >
             </div>
          </div>
       </div>
-
-      <!-- KONTAK -->
       <div id="kontak">
-         <div class="container">
-            <div class="kontak">
-               <div class="row-satu">
-                  <h2>Kontak</h2>
-                  <p>Hubungi Kami</p>
-               </div>
-               <div class="row-dua">
-                  <form>
-                     <div class="alert-konten"></div>
-                     <label for="nama">Nama</label>
+         <div class="container mx-auto px-4 py-[80px]">
+            <div class="text-center">
+               <h2 class="text-3xl font-semibold">Kontak</h2>
+               <p class="mt-5 text-xl">Hubungi saya</p>
+            </div>
+            <div class="my-24">
+               <form id="form" class="flex flex-col items-center">
+                  <div id="form-alert" class="w-2/3 m-lg:w-full"></div>
+                  <label for="nama" class="my-2 w-2/3 m-lg:w-full">
+                     <span class="block mb-3">Nama</span>
                      <input
                         type="text"
-                        placeholder="Masukkan nama"
-                        name="nama"
                         id="nama"
-                        maxlength="64"
+                        name="nama"
+                        placeholder="Masukkan nama"
+                        required
+                        minlength="3"
+                        maxlength="100"
+                        class="w-full p-2 bg-transparent border rounded-md border-slate-200"
                      />
-
-                     <label for="email">Email</label>
+                  </label>
+                  <label for="email" class="my-2 w-2/3 m-lg:w-full">
+                     <span class="block mb-3">Email</span>
                      <input
                         type="email"
-                        placeholder="Masukkan email"
-                        name="email"
                         id="email"
-                        maxlength="64"
+                        name="email"
+                        placeholder="Masukkan email"
+                        required
+                        maxlength="100"
+                        class="w-full p-2 bg-transparent border rounded-md border-white"
                      />
-
-                     <label for="pesan">Pesan</label>
+                  </label>
+                  <label for="pesan" class="my-2 w-2/3 m-lg:w-full">
+                     <span class="block mb-3">Pesan</span>
                      <textarea
-                        name="pesan"
                         id="pesan"
-                        cols="30"
-                        rows="10"
+                        name="pesan"
+                        required
+                        minlength="3"
+                        maxlength="2000"
                         placeholder="Masukkan pesan"
-                        maxlength="3000"
+                        class="w-full min-h-[7rem] p-2 bg-transparent border rounded-md border-white"
                      ></textarea>
-
-                     <button type="submit">Kirim</button>
-                  </form>
-               </div>
+                  </label>
+                  <div class="w-2/3 m-lg:w-full">
+                     <button
+                        id="form-button"
+                        type="submit"
+                        class="ring-2 flex gap-2 justify-center items-center ring-sky-800 my-2 py-2 px-6 rounded-md transition hover:ring-slate-300 hover:text-slate-300"
+                     >
+                        <span>Kirim</span>
+                     </button>
+                  </div>
+               </form>
             </div>
          </div>
       </div>
-
-      <!-- FOOTER -->
-      <div id="footer">
-         <div class="container">
-            <footer class="footer">
-               <div class="row-satu">
-                  <a href="https://instagram.com/wajik45" target="_blank">
-                     <i class="bi bi-instagram"></i>
-                  </a>
-                  <a href="https://facebook.com/haikal.utoo.33" target="_blank">
-                     <i class="bi bi-facebook"></i>
-                  </a>
-                  <a href="https://tiktok.com/@wajik_45" target="_blank">
-                     <i class="bi bi-tiktok"></i>
-                  </a>
-               </div>
-               <div class="row-dua">
-                  <p>
-                     <span class="copyright"></span> | built with
-                     <i class="bi bi-suit-heart-fill"></i> by
-                     <strong
-                        ><a href="https://instagram.com/wajik45" target="_blank"
-                           >Haikal</a
-                        ></strong
-                     >
-                  </p>
-               </div>
-            </footer>
-         </div>
+      <div id="footer" class="shadow-dikit-be">
+         <footer class="container p-3 mx-auto">
+            <div class="p-3 flex justify-center gap-7">
+               <a
+                  href="https://instagram.com/wajik45"
+                  target="_blank"
+                  class="transition hover:text-slate-400"
+               >
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="28"
+                     height="28"
+                     fill="currentColor"
+                     class="bi bi-instagram"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                     />
+                  </svg>
+               </a>
+               <a
+                  href="https://tiktok.com/@wajik_45"
+                  target="_blank"
+                  class="transition hover:text-slate-400"
+               >
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="28"
+                     height="28"
+                     fill="currentColor"
+                     class="bi bi-tiktok"
+                     viewBox="0 0 16 16"
+                  >
+                     <path
+                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                     />
+                  </svg>
+               </a>
+            </div>
+            <div class="p-3 text-center">
+               <p class="text-lg footer-text"></p>
+            </div>
+         </footer>
       </div>
-
-      <script src="src/js/main.js"></script>
    </body>
+   <script src="assets/js/main.js"></script>
+   <script>
+      document.onreadystatechange = () => {
+         const loaderDua = document.querySelector("#loader-dua");
+         if (document.readyState !== "complete") {
+            return loaderDua.classList.replace("hidden", "flex");
+         }
+         return loaderDua.classList.replace("flex", "hidden");
+      };
+   </script>
 </html>
