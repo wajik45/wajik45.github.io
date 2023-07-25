@@ -112,29 +112,6 @@
             "href": "https://lengkong-quran.vercel.app/"
          },
          {
-            "title": "Website Undangan",
-            "src": "assets/icons/portfolio/invitation.png",
-            "width": "128",
-            "technologies": [
-               {
-                  "src": "assets/icons/skills/html.png",
-                  "alt": "HTML",
-                  "width": "32"
-               },
-               {
-                  "src": "assets/icons/skills/css.png",
-                  "alt": "CSS",
-                  "width": "32"
-               },
-               {
-                  "src": "assets/icons/skills/js.png",
-                  "alt": "JavaScript",
-                  "width": "32"
-               }
-            ],
-            "href": "https://wajik45.github.io/undangan"
-         },
-         {
             "title": "Website Portfolio",
             "src": "assets/icons/portfolio/portfolio.png",
             "width": "128",
@@ -158,6 +135,52 @@
             "href": "https://wajik45.github.io"
          },
          {
+            "title": "Streaming Anime",
+            "src": "assets/icons/portfolio/animation.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/react.png",
+                  "alt": "React",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/tailwindcss.png",
+                  "alt": "Tailwind CSS",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/ts.png",
+                  "alt": "TypeScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://wajik-anime.vercel.app"
+         },
+         {
+            "title": "Website Undangan",
+            "src": "assets/icons/portfolio/invitation.png",
+            "width": "128",
+            "technologies": [
+               {
+                  "src": "assets/icons/skills/html.png",
+                  "alt": "HTML",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/css.png",
+                  "alt": "CSS",
+                  "width": "32"
+               },
+               {
+                  "src": "assets/icons/skills/js.png",
+                  "alt": "JavaScript",
+                  "width": "32"
+               }
+            ],
+            "href": "https://wajik45.github.io/undangan"
+         },
+         {
             "title": "Pencarian Film",
             "src": "assets/icons/portfolio/searching.png",
             "width": "128",
@@ -179,29 +202,6 @@
                }
             ],
             "href": "https://wajik45.github.io/movies-db"
-         },
-         {
-            "title": "Kalkulator",
-            "src": "assets/icons/portfolio/calculator.png",
-            "width": "128",
-            "technologies": [
-               {
-                  "src": "assets/icons/skills/html.png",
-                  "alt": "HTML",
-                  "width": "32"
-               },
-               {
-                  "src": "assets/icons/skills/css.png",
-                  "alt": "CSS",
-                  "width": "32"
-               },
-               {
-                  "src": "assets/icons/skills/js.png",
-                  "alt": "JavaScript",
-                  "width": "32"
-               }
-            ],
-            "href": "https://wajik45.github.io/kalkulator-santuy"
          }
       ]
    }
