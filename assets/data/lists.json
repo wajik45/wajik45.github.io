@@ -99,17 +99,17 @@
             "width": "128",
             "technologies": [
                {
-                  "src": "assets/icons/skills/bootstrap.png",
-                  "alt": "Bootstrap",
-                  "width": "32"
-               },
-               {
                   "src": "assets/icons/skills/react.png",
                   "alt": "React",
                   "width": "32"
                }
+               {
+                  "src": "assets/icons/skills/sass.png",
+                  "alt": "SASS",
+                  "width": "32"
+               }
             ],
-            "href": "https://lengkong-quran.vercel.app/"
+            "href": "https://wajiquran.vercel.app/"
          },
          {
             "title": "Website Portfolio",
