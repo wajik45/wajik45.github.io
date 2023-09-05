@@ -1,350 +1,399 @@
 <!DOCTYPE html>
-<html
-   lang="en"
-   class="m-lg:text-[90%] scroll-smooth overflow-x-hidden"
-   style="color-scheme: dark"
->
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-         name="description"
-         itemprop="description"
-         content="Welcome to My Portfolio. Saya Haikal, Desainer, Illustrator & Frontend Developer instagram: @wajik45"
-      />
-      <meta
-         name="keywords"
-         content="wajik45, wajik portfolio, lengkon quran, @wajik45"
-      />
-      <title>My Portfolio | Haikal</title>
-      <link
-         rel="shortcut icon"
-         href="assets/icons/ico/favicon.ico?"
-         type="image/x-icon"
-      />
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Tinos:wght@400;700&display=swap"
-         rel="stylesheet"
-      />
-      <link href="./assets/css/main.css" rel="stylesheet" />
-   </head>
-   <body
-      class="font-open-sans overflow-x-hidden relative min-h-screen bg-gradient-to-r from-biru-tua to-merah-sedeng text-slate-200"
-   >
-      <div
-         id="to-top"
-         class="fixed cursor-pointer bottom-4 right-4 text-3xl translate-x-20 opacity-0 transition duration-300"
-      >
-         🔝
-      </div>
-      <div
-         id="navbar"
-         class="fixed shadow-dikit-be w-full z-10 bg-gradient-to-r from-biru-tua/80 to-merah-sedeng/80 backdrop-blur-md"
-      >
-         <nav
-            class="container mx-auto px-4 flex justify-between items-center min-h-[65px] relative"
-         >
-            <div class="group">
-               <a
-                  href="/"
-                  class="font-semibold text-2xl transition ease-in-out inline-block group-hover:text-slate-400 group-hover:-translate-y-1"
-                  >Haikal</a
-               >
-            </div>
-            <div
-               class="navbar-nav flex transition duration-300 m-md:bg-gradient-to-r from-biru-tua to-merah-sedeng m-md:py-12 m-md:pl-12 m-md:pr-36 m-md:absolute m-md:top-[120%] m-md:right-4 m-md:flex-col-reverse m-md:rounded-l-md m-md:translate-x-[130%] m-md:opacity-0"
-            >
-               <div
-                  class="navbar-list flex items-center m-md:flex-col m-md:items-start"
-               ></div>
-               <div class="ml-10 m-md:ml-0 m-md:my-3">
-                  <a
-                     href="./assets/doc/CV-Muhamad-Haikal.pdf"
-                     class="py-2 px-3 inline-block min-w-fit border-2 border-slate-200 w-max rounded-full transition hover:text-slate-400 hover:border-slate-400"
-                     >Download CV</a
-                  >
-               </div>
-            </div>
-            <div
-               class="navbar-menu hidden m-md:flex w-9 h-9 flex-col justify-evenly group cursor-pointer"
-            >
-               <span class="satu block w-[70%] menu-span"></span>
-               <span class="dua block w-full menu-span"></span>
-               <span class="tiga block w-[50%] menu-span"></span>
-            </div>
-         </nav>
-      </div>
-      <div id="jumbotron">
-         <div
-            class="container relative mx-auto px-4 flex min-h-screen py-[65px] justify-evenly items-center m-lg:flex-col-reverse"
-         >
-            <div
-               id="loader-dua"
-               class="w-full h-full justify-center items-center absolute hidden"
-            >
-               <div class="loader-dua"></div>
-            </div>
-            <div class="my-4 m-lg:w-full">
-               <h3 class="jumbotron-text jumbotron-animation text-3xl">
-                  Halo Semua saya,
-               </h3>
-               <h1
-                  class="jumbotron-text jumbotron-animation text-7xl font-semibold my-4 m-lg:text-6xl"
-               >
-                  Muhamad Haikal
-               </h1>
-               <p class="jumbotron-text jumbotron-animation text-2xl">
-                  Desainer & Frontend Developer
-               </p>
-               <a
-                  href="#kontak"
-                  class="jumbotron-text jumbotron-animation py-2 px-3 inline-block text-lg font-semibold min-w-fit border-slate-200 border-2 w-max rounded-full mt-12 hover:text-slate-400 hover:border-slate-400"
-                  >Hubungi Saya</a
-               >
-            </div>
-            <div class="my-4">
-               <img
-                  src="assets/pictures/satu.png"
-                  width="250"
-                  alt="profile"
-                  class="jumbotron-img jumbotron-animation bg-white rounded-full border-white border-4 m-sm:w-56"
-               />
-            </div>
-         </div>
-      </div>
-      <div id="tentang">
-         <div class="container mx-auto px-4 py-[80px]">
-            <div class="text-center">
-               <h2 class="tentang-header tentang-aos text-3xl font-semibold">
-                  Tentang Saya
-               </h2>
-               <p class="tentang-header tentang-aos mt-5 text-xl">Pengenalan</p>
-            </div>
-            <div
-               class="flex my-24 justify-center items-center gap-10 m-md:flex-col"
-            >
-               <div>
-                  <img
-                     src="assets/pictures/dua.jpg"
-                     alt="profile-2"
-                     width="300"
-                     class="tentang-img tentang-aos rounded-lg"
-                  />
-               </div>
-               <div class="basis-1/2 flex flex-col gap-10">
-                  <div>
-                     <p class="tentang-text tentang-aos text-justify">
-                        Saya Haikal, umur saya
-                        <span class="tentang-age"></span> tahun, Saya meyukai
-                        hal yang berhubungan dengan seni, komputer dan
-                        teknologi. Saya aktif dibidang desain dan web
-                        development, saat ini saya mencari peluang dimana saya
-                        dapat menerapkan pengetahuan saya, mempelajari hal-hal
-                        baru dan meningkatkan pengetahuan saya ke tingkat yang
-                        baru.
-                     </p>
-                  </div>
-                  <div class="flex justify-center">
-                     <a
-                        href="https://github.com/wajik45"
-                        target="_blank"
-                        class="tentang-icon tentang-aos mx-4 transition hover:text-slate-400"
-                     >
-                        <svg
-                           xmlns="http://www.w3.org/2000/svg"
-                           width="36"
-                           height="36"
-                           fill="currentColor"
-                           class="bi bi-github"
-                           viewBox="0 0 16 16"
-                        >
-                           <path
-                              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-                           />
-                        </svg>
-                     </a>
-                     <a
-                        href="https://pinterest.com/wajik_45"
-                        target="_blank"
-                        class="tentang-icon tentang-aos mx-4 transition hover:text-slate-400"
-                     >
-                        <svg
-                           xmlns="http://www.w3.org/2000/svg"
-                           width="36"
-                           height="36"
-                           fill="currentColor"
-                           class="bi bi-pinterest"
-                           viewBox="0 0 16 16"
-                        >
-                           <path
-                              d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"
-                           />
-                        </svg>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div id="skills">
-         <div class="container mx-auto px-4 py-[80px]">
-            <div class="text-center">
-               <h2 class="skills-header skills-aos text-3xl font-semibold">
-                  Skills
-               </h2>
-               <p class="skills-header skills-aos mt-5 text-xl">
-                  Level Kemampuan
-               </p>
-            </div>
-            <div class="my-24 flex">
-               <div
-                  class="skills-list w-full flex flex-wrap justify-center gap-5"
-               ></div>
-            </div>
-         </div>
-      </div>
-      <div id="portfolio">
-         <div class="container mx-auto px-4 py-[80px]">
-            <div class="text-center">
-               <h2
-                  class="portfolio-header portfolio-aos text-3xl font-semibold"
-               >
-                  Portfolio
-               </h2>
-               <p class="portfolio-header portfolio-aos mt-5 text-xl">
-                  Projects
-               </p>
-            </div>
-            <div class="my-24">
-               <div
-                  class="portfolio-list w-full flex gap-4 justify-center flex-wrap"
-               ></div>
-            </div>
-            <div class="text-center mb-20">
-               <a
-                  href="https://github.com/wajik45"
-                  target="_blank"
-                  class="portfolio-card portfolio-aos inline-block border border-slate-200 py-1 px-3 rounded-sm transition hover:text-slate-400 hover:border-slate-400"
-                  >Lihat semua ↗</a
-               >
-            </div>
-         </div>
-      </div>
-      <div id="kontak">
-         <div class="container mx-auto px-4 py-[80px]">
-            <div class="text-center">
-               <h2 class="text-3xl font-semibold">Kontak</h2>
-               <p class="mt-5 text-xl">Hubungi saya</p>
-            </div>
-            <div class="my-24">
-               <form id="form" class="flex flex-col items-center">
-                  <div id="form-alert" class="w-2/3 m-lg:w-full"></div>
-                  <label for="nama" class="my-2 w-2/3 m-lg:w-full">
-                     <span class="block mb-3">Nama</span>
-                     <input
-                        type="text"
-                        id="nama"
-                        name="nama"
-                        placeholder="Masukkan nama"
-                        required
-                        minlength="3"
-                        maxlength="100"
-                        class="w-full p-2 bg-transparent border rounded-md border-slate-200"
-                     />
-                  </label>
-                  <label for="email" class="my-2 w-2/3 m-lg:w-full">
-                     <span class="block mb-3">Email</span>
-                     <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Masukkan email"
-                        required
-                        maxlength="100"
-                        class="w-full p-2 bg-transparent border rounded-md border-white"
-                     />
-                  </label>
-                  <label for="pesan" class="my-2 w-2/3 m-lg:w-full">
-                     <span class="block mb-3">Pesan</span>
-                     <textarea
-                        id="pesan"
-                        name="pesan"
-                        required
-                        minlength="3"
-                        maxlength="2000"
-                        placeholder="Masukkan pesan"
-                        class="w-full min-h-[7rem] p-2 bg-transparent border rounded-md border-white"
-                     ></textarea>
-                  </label>
-                  <div class="w-2/3 m-lg:w-full">
-                     <button
-                        id="form-button"
-                        type="submit"
-                        class="ring-2 flex gap-2 justify-center items-center ring-sky-800 my-2 py-2 px-6 rounded-md transition hover:ring-slate-300 hover:text-slate-300"
-                     >
-                        <span>Kirim</span>
-                     </button>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-      <div id="footer" class="shadow-dikit-be">
-         <footer class="container p-3 mx-auto">
-            <div class="p-3 flex justify-center gap-7">
-               <a
-                  href="https://instagram.com/wajik45"
-                  target="_blank"
-                  class="transition hover:text-slate-400"
-               >
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      itemprop="description"
+      content="Welcome to My Portfolio. Saya Haikal, Desainer, Illustrator & Frontend Developer instagram: @wajik45"
+    />
+    <meta
+      name="keywords"
+      content="wajik45, wajik portfolio, lengkon quran, wajiquran, wajik-scroll, @wajik45"
+    />
+    <title>My Portfolio | Haikal</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/wajik-scroll@1.3.4/dist/wajik-scroll.css"
+    />
+  </head>
+  <body id="home">
+    <!-- NAVBAR -->
+    <div id="navbar" data-wajik="swipe-down">
+      <div class="container">
+        <nav class="navbar">
+          <h2 class="navbar-brand">
+            <a href="#">Haikal</a>
+          </h2>
+          <div class="navbar-nav">
+            <ul class="wajik-wait-group">
+              <li data-wajik="swipe-up">
+                <a href="#home" class="navbar-home">
                   <svg
-                     xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
-                     fill="currentColor"
-                     class="bi bi-instagram"
-                     viewBox="0 0 16 16"
+                    class="navbar-icon"
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
                   >
-                     <path
-                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                     />
+                    <path
+                      class="navbar-icon"
+                      d="M946.5 505L534.6 93.4a31.93 31.93 0 00-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z"
+                    />
                   </svg>
-               </a>
-               <a
-                  href="https://tiktok.com/@wajik_45"
-                  target="_blank"
-                  class="transition hover:text-slate-400"
-               >
+                  <span class="navbar-span">Home</span>
+                </a>
+              </li>
+              <li data-wajik="swipe-up">
+                <a href="#about" class="navbar-about">
                   <svg
-                     xmlns="http://www.w3.org/2000/svg"
-                     width="28"
-                     height="28"
-                     fill="currentColor"
-                     class="bi bi-tiktok"
-                     viewBox="0 0 16 16"
+                    class="navbar-icon"
+                    viewBox="0 0 512 512"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
                   >
-                     <path
-                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
-                     />
+                    <path
+                      class="navbar-icon"
+                      d="M332.64 64.58C313.18 43.57 286 32 256 32c-30.16 0-57.43 11.5-76.8 32.38-19.58 21.11-29.12 49.8-26.88 80.78C156.76 206.28 203.27 256 256 256s99.16-49.71 103.67-110.82c2.27-30.7-7.33-59.33-27.03-80.6zM432 480H80a31 31 0 01-24.2-11.13c-6.5-7.77-9.12-18.38-7.18-29.11C57.06 392.94 83.4 353.61 124.8 326c36.78-24.51 83.37-38 131.2-38s94.42 13.5 131.2 38c41.4 27.6 67.74 66.93 76.18 113.75 1.94 10.73-.68 21.34-7.18 29.11A31 31 0 01432 480z"
+                    />
                   </svg>
-               </a>
-            </div>
-            <div class="p-3 text-center">
-               <p class="text-lg footer-text"></p>
-            </div>
-         </footer>
+                  <span class="navbar-span">Tentang</span>
+                </a>
+              </li>
+              <li data-wajik="swipe-up">
+                <a href="#skills" class="navbar-skills">
+                  <svg
+                    class="navbar-icon"
+                    viewBox="0 0 640 512"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      class="navbar-icon"
+                      d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25-2.3-5.3-4.8-10.5-7.6-15.5l-3.1-5.4c-3-5-6.3-9.9-9.8-14.6-5.7-7.6-15.7-10.1-24.7-7.1L241.3 77c-10.7-8.8-23-16-36.2-20.9l-6.1-29c-1.9-9.3-9.1-16.7-18.5-17.8C173.7 8.4 166.9 8 160 8s-13.7.4-20.4 1.2c-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9l-28.3-9.2c-9-3-19-.5-24.7 7.1-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6-3.7 8.7-.9 18.6 6.2 25l22.2 19.8c-1.1 6.7-1.7 13.7-1.7 20.8s.6 14.1 1.7 20.9l-22.2 19.8c-7.1 6.3-9.9 16.2-6.2 25 2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6 5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8 6.7.8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1 3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5 3.7-8.7.9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM208 176c0 26.5-21.5 48-48 48s-48-21.5-48-48 21.5-48 48-48 48 21.5 48 48zm296.7 324.5c6.3 7.1 16.2 9.9 25 6.2 5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8 7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2L613 391c9.3-1.9 16.7-9.1 17.8-18.5.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5l-29.1-6.2c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1.6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2l-29.1 6c-9.3 1.9-16.7 9.1-17.8 18.5-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7 4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6 8.7 3.7 18.6.9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 400c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z"
+                    />
+                  </svg>
+                  <span class="navbar-span">Skills</span>
+                </a>
+              </li>
+              <li data-wajik="swipe-up">
+                <a href="#portfolio" class="navbar-portfolio">
+                  <svg
+                    class="navbar-icon"
+                    viewBox="0 0 1000.375 1000"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      class="navbar-icon"
+                      d="M856.375 332h-100l-124-150-214 150h-180c-34.667 0-64.667 13-90 39s-38 56.333-38 91v160l-108-296c-6.667-25.333.667-42.667 22-52l680-248c24-6.667 40.667 1.333 50 24l102 282m106 90c10.667 0 19.667 4 27 12 7.333 8 11 17.333 11 28v472c0 10.667-3.667 20-11 28s-16.333 12-27 12h-724c-10.667 0-19.667-4-27-12-7.333-8-11-17.333-11-28V462c0-10.667 3.667-20 11-28s16.333-12 27-12h724m-56 452V712l-72-160-166 60-130 132-138-170-92 214v86h598"
+                    />
+                  </svg>
+                  <span class="navbar-span">Portfolio</span>
+                </a>
+              </li>
+              <li data-wajik="swipe-up">
+                <a href="#contact" class="navbar-contact">
+                  <svg
+                    class="navbar-icon"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path class="navbar-icon" fill="none" d="M0 0h24v24H0z" />
+                    <path
+                      class="navbar-icon"
+                      d="M2 22a8 8 0 1116 0H2zm8-9c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm10 4h4v2h-4v-2zm-3-5h7v2h-7v-2zm2-5h5v2h-5V7z"
+                    />
+                  </svg>
+                  <span class="navbar-span">Kontak</span>
+                </a>
+              </li>
+            </ul>
+            <a
+              href="assets/doc/MUHAMAD-HAIKAL.pdf"
+              class="navbar-download button"
+              title="Download"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="1rem"
+                height="1rem"
+              >
+                <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" />
+              </svg>
+              <span>Resume</span>
+            </a>
+          </div>
+          <div class="navbar-menu">
+            <span class="navbar-span"></span>
+            <span class="navbar-span"></span>
+            <span class="navbar-span"></span>
+          </div>
+        </nav>
       </div>
-   </body>
-   <script src="assets/js/main.js"></script>
-   <script>
-      document.onreadystatechange = () => {
-         const loaderDua = document.querySelector("#loader-dua");
-         if (document.readyState !== "complete") {
-            return loaderDua.classList.replace("hidden", "flex");
-         }
-         return loaderDua.classList.replace("flex", "hidden");
-      };
-   </script>
+    </div>
+
+    <!-- JUMBOTRON -->
+    <div id="jumbotron">
+      <div class="container">
+        <div class="jumbotron">
+          <div class="blur-blue"></div>
+          <div class="loader-main">
+            <div class="loader-lg"></div>
+          </div>
+          <div class="column-1 wajik-wait-group">
+            <p data-wajik="swipe-right-25">Halo Semua saya,</p>
+            <h1 data-wajik="swipe-right-25">Muhamad Haikal</h1>
+            <p data-wajik="swipe-right-25">
+              <span>Desainer &</span>
+              <span class="semi-light">Frontend Developer</span>
+            </p>
+            <div data-wajik="swipe-left-50">
+              <a href="#contact" class="contact-me button">Hubungi Saya</a>
+            </div>
+          </div>
+          <div class="column-2">
+            <img
+              src="assets/img/profile/1.jpg"
+              alt="profile"
+              data-wajik="flip-x"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about">
+      <div class="container">
+        <div class="about">
+          <div class="blur-green"></div>
+          <div class="row-1 wajik-wait-group" data-wajik-view="middle">
+            <h2 data-wajik="swipe-right">Tentang Saya</h2>
+            <p data-wajik="swipe-right">Pengenalan</p>
+          </div>
+          <div class="row-2">
+            <div class="column-1">
+              <img
+                data-wajik="flip-x"
+                src="assets/img/profile/2.jpg"
+                alt="profile-2"
+              />
+            </div>
+            <div class="column-2">
+              <p data-wajik="swipe-up-25">
+                Saya Haikal, umur saya <span class="umur"></span> tahun, Saya
+                meyukai hal yang berhubungan dengan seni, komputer dan
+                teknologi. Saya aktif dibidang desain dan web development, saat
+                ini saya mencari peluang dimana saya dapat menerapkan
+                pengetahuan saya, mempelajari hal-hal baru dan meningkatkan
+                pengetahuan saya ke tingkat yang baru.
+              </p>
+              <div class="list wajik-wait-group" data-wajik-view="bottom">
+                <a href="https://github.com/wajik45" target="_blank">
+                  <svg
+                    data-wajik="swipe-left-100"
+                    viewBox="0 0 1024 1024"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                  >
+                    <path
+                      d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0138.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+                    />
+                  </svg>
+                </a>
+                <a href="https://pinterest.com/wajik_45" target="_blank">
+                  <svg
+                    data-wajik="swipe-left-100"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    height="1em"
+                    width="1em"
+                    data-wajik-view="bottom"
+                  >
+                    <path
+                      d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 01.069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 002.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div id="skills">
+      <div class="container">
+        <div class="skills">
+          <div class="blur-blue"></div>
+          <div class="row-1 wajik-wait-group" data-wajik-view="middle">
+            <h2 data-wajik="swipe-right">Skills</h2>
+            <p data-wajik="swipe-right">Level Kemampuan</p>
+          </div>
+          <div class="row-2 wajik-wait-group"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="portfolio">
+          <div class="blur-green"></div>
+          <div class="row-1 wajik-wait-group" data-wajik-view="middle">
+            <h2 data-wajik="swipe-right">Portfolio</h2>
+            <p data-wajik="swipe-right">Projects terbaru</p>
+          </div>
+          <div class="row-2"></div>
+          <a
+            href="https://github.com/wajik45"
+            target="_blank"
+            class="button"
+            data-wajik="zoom-in"
+          >
+            <span>Lihat Semua</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="1rem"
+              height="1rem"
+              fill="currentColor"
+            >
+              <path
+                d="M8.5,18.31L5.69,15.5L12.06,9.12H7.11V5.69H18.31V16.89H14.89V11.94L8.5,18.31Z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="blur-blue"></div>
+          <div class="row-1 wajik-wait-group" data-wajik-view="middle">
+            <h2 data-wajik="swipe-right">Kontak</h2>
+            <p data-wajik="swipe-right">Hubungi Saya</p>
+          </div>
+          <div class="row-2 alert"></div>
+          <div class="row-3">
+            <form>
+              <label for="nama">
+                <p>Nama</p>
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                  placeholder="Masukkan Nama"
+                  class="form"
+                />
+              </label>
+              <label for="email">
+                <p>Email</p>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Masukkan Email"
+                  class="form"
+                />
+              </label>
+              <label for="pesan">
+                <p>Pesan</p>
+                <textarea
+                  id="pesan"
+                  name="pesan"
+                  placeholder="Masukkan Pesan"
+                  class="form"
+                ></textarea>
+              </label>
+              <div class="submit">
+                <button class="button" type="submit">
+                  <span>Kirim</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="container">
+        <footer class="footer">
+          <div class="row">
+            <a href="https://instagram.com/wajik45/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="1.8rem"
+                height="1.8rem"
+                fill="currentColor"
+              >
+                <path
+                  d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"
+                />
+              </svg>
+            </a>
+            <a href="https://tiktok.com/@wajik_45/" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.8rem"
+                height="1.8rem"
+                fill="currentColor"
+                class="bi bi-tiktok"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="row">
+            &copy; copyright 2023 | built with <span class="heart">❤</span> by
+            <strong
+              ><a href="https://instagram.com/wajik45/" target="_blank"
+                >Haikal</a
+              ></strong
+            >
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- TO TOP -->
+    <svg
+      class="to-top"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path
+        d="M19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21M12,7L7,12H10V16H14V12H17L12,7Z"
+      />
+    </svg>
+
+    <script src="https://cdn.jsdelivr.net/npm/wajik-scroll@1.3.4/dist/wajik-scroll.umd.js"></script>
+    <script>
+      WAJIK.wajikScroll.start();
+    </script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
