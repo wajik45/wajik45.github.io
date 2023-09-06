@@ -6,6 +6,7 @@ document.addEventListener("readystatechange", () => {
     return loaderMain.classList.add("show");
   }
 
+  WAJIK.wajikScroll.start();
   return loaderMain.classList.remove("show");
 });
 
