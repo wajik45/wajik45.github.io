@@ -422,13 +422,13 @@ class Form {
     });
 
     this.#click = false;
+
+    this.#button.innerHTML = "<span>Kirim</span>";
   }
 
   #submit() {
     this.#form.addEventListener("submit", async (e) => {
       e.preventDefault();
-
-      console.log(this.#isEmpty());
 
       if (!this.#isValid()) return;
 
