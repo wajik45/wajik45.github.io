@@ -354,17 +354,15 @@ class Form {
   }
 
   #isEmpty() {
-    let value;
+    if (
+      this.#forms[0].value.length < 3 ||
+      this.#forms[1].value.length < 3 ||
+      this.#forms[2].value.length < 3
+    ) {
+      return true;
+    }
 
-    this.#forms.forEach((form) => {
-      if (form.value.length < 3) {
-        return (value = true);
-      }
-
-      return (value = false);
-    });
-
-    return value;
+    return false;
   }
 
   #send() {
@@ -429,6 +427,8 @@ class Form {
   #submit() {
     this.#form.addEventListener("submit", async (e) => {
       e.preventDefault();
+
+      console.log(this.#isEmpty());
 
       if (!this.#isValid()) return;
 
