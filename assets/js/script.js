@@ -178,7 +178,7 @@ const skills = {
   run() {
     this.data.forEach((item) => {
       document.querySelector(".skills .row-2").innerHTML += `
-        <div class="col" title="${item.name}" data-wajik="swipe-up" data-wajik-wait="100">
+        <div class="col" title="${item.name}" data-wajik="swipe-up" data-wajik-wait="150">
           <img src="${item.src}" alt="${item.name}" />
           <p>${item.name}</p>
         </div>
