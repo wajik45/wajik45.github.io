@@ -43,41 +43,61 @@ toTop.run();
 // NAVBAR
 class Navbar {
   #navbarNav = document.querySelector(".navbar .navbar-nav");
-  #navbarBrand = this.#navbarNav.previousElementSibling.firstElementChild;
   #navbarUl = this.#navbarNav.firstElementChild;
   #navbarLink = [...this.#navbarUl.children].map(
     (item) => item.firstElementChild
   );
   #navbarMenu = this.#navbarNav.nextElementSibling;
+  #contentTop = document.querySelectorAll(".content-top");
 
   #handleLink() {
-    this.#navbarLink.forEach((item) => {
-      const hashName = location.hash.slice(1);
+    let view = "home";
 
-      if (item.className.includes(hashName)) {
-        item.classList.add("clicked");
+    function elementInView(element) {
+      const elementTop = element.getBoundingClientRect().top;
+
+      return elementTop <= window.innerHeight;
+    }
+
+    function includes(element, type) {
+      return element.className.includes(type);
+    }
+
+    function checkView(element) {
+      if (includes(element, "home")) {
+        view = "home";
+      } else if (includes(element, "about")) {
+        view = "about";
+      } else if (includes(element, "skills")) {
+        view = "skills";
+      } else if (includes(element, "portfolio")) {
+        view = "portfolio";
+      } else {
+        view = "contact";
       }
+    }
 
-      if (hashName === "") {
-        item.classList.remove("clicked");
-      }
-
-      item.addEventListener("click", () => {
-        this.#navbarLink.forEach((item) => {
-          item.classList.remove("clicked");
-        });
-
-        item.classList.add("clicked");
+    const setView = () => {
+      this.#contentTop.forEach((item) => {
+        elementInView(item) && checkView(item);
       });
-    });
+    };
 
-    this.#navbarBrand.addEventListener("click", () => {
+    const toggleClass = () => {
       this.#navbarLink.forEach((item) => {
-        item.classList.remove("clicked");
+        item.classList.remove("show");
+        includes(item, view) && item.classList.add("show");
       });
+    };
 
-      item.classList.add("clicked");
-    });
+    function setAll() {
+      setView();
+      toggleClass();
+    }
+
+    setAll();
+
+    document.addEventListener("scroll", () => setAll());
   }
 
   #handleMenu() {

@@ -227,6 +227,7 @@ a.button:hover,
 .skills,
 .portfolio,
 .contact {
+  min-height: 100vh;
   padding: 3rem 0;
   display: flex;
   flex-direction: column;
@@ -296,11 +297,11 @@ a.button:hover,
   transform: scaleX(70%);
 }
 
-.navbar ul a.clicked {
+.navbar ul a.show {
   color: var(--semi-light);
 }
 
-.navbar ul a.clicked::after {
+.navbar ul a.show::after {
   transform: scaleX(70%);
 }
 
