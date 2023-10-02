@@ -159,10 +159,6 @@ const skills = {
       name: "Photoshop",
     },
     {
-      src: "assets/img/icons/skills/illustrator.png",
-      name: "Illustrator",
-    },
-    {
       src: "assets/img/icons/skills/html.png",
       name: "HTML",
     },
@@ -171,12 +167,12 @@ const skills = {
       name: "CSS",
     },
     {
-      src: "assets/img/icons/skills/js.png",
-      name: "JavaScript",
-    },
-    {
       src: "assets/img/icons/skills/sass.png",
       name: "SASS",
+    },
+    {
+      src: "assets/img/icons/skills/js.png",
+      name: "JavaScript",
     },
     {
       src: "assets/img/icons/skills/ts.png",
@@ -193,6 +189,14 @@ const skills = {
     {
       src: "assets/img/icons/skills/react.png",
       name: "ReactJS",
+    },
+    {
+      src: "assets/img/icons/skills/express.png",
+      name: "ExpressJS",
+    },
+    {
+      src: "assets/img/icons/skills/svelte.svg",
+      name: "Svelte",
     },
   ],
 
@@ -221,10 +225,6 @@ const portfolio = {
         {
           src: "assets/img/icons/skills/cdr.png",
           name: "CorelDRAW",
-        },
-        {
-          src: "assets/img/icons/skills/illustrator.png",
-          name: "Illustrator",
         },
         {
           src: "assets/img/icons/skills/photoshop.png",

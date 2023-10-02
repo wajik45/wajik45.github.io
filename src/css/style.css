@@ -307,6 +307,7 @@ a.button:hover,
 
 .navbar .navbar-menu {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
@@ -379,7 +380,7 @@ a.button:hover,
     padding: 3rem 9rem 3rem 3rem;
     align-items: flex-start;
     gap: 2rem;
-    transition: 0.4s;
+    transition: 0.3s;
     transform: translateX(150%) scale(0.9);
     opacity: 0;
   }
