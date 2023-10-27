@@ -197,11 +197,19 @@ a.button:hover,
 }
 
 .blur-blue {
-  box-shadow: 0 0 200px 50px var(--primary);
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary);
+  filter: blur(70px);
+  /* box-shadow: 0 0 200px 50px var(--primary); */
 }
 
 .blur-green {
-  box-shadow: 0 0 200px 50px var(--primary-2);
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-2);
+  filter: blur(70px);
+  /* box-shadow: 0 0 200px 50px var(--primary-2); */
 }
 
 .to-top {

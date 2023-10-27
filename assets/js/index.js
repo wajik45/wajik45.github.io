@@ -6,7 +6,6 @@ document.addEventListener("readystatechange", () => {
     return loaderMain.classList.add("show");
   }
 
-  WAJIK.wajikScroll.start();
   return loaderMain.classList.remove("show");
 });
 
@@ -203,7 +202,7 @@ const skills = {
   run() {
     this.data.forEach((item) => {
       document.querySelector(".skills .row-2").innerHTML += `
-        <div class="col" title="${item.name}" data-wajik="swipe-up" data-wajik-wait="150">
+        <div class="col" title="${item.name}">
           <img src="${item.src}" alt="${item.name}" />
           <p>${item.name}</p>
         </div>
@@ -248,17 +247,13 @@ const portfolio = {
       ],
     },
     {
-      src: "assets/img/icons/projects/wajik-scroll.jpg",
+      src: "assets/img/icons/projects/wajik-gulir.jpg",
       name: "Library Animasi sederhana",
-      url: "https://www.npmjs.com/package/wajik-scroll",
+      url: "https://github.com/wajik45/wajik-gulir",
       technologies: [
         {
-          src: "assets/img/icons/skills/sass.png",
-          name: "SASS",
-        },
-        {
-          src: "assets/img/icons/skills/js.png",
-          name: "JavaScript",
+          src: "assets/img/icons/skills/ts.png",
+          name: "TypeScript",
         },
       ],
     },
@@ -324,7 +319,7 @@ const portfolio = {
   run() {
     this.data.forEach((item) => {
       document.querySelector(".portfolio .row-2").innerHTML += `
-        <div data-wajik="swipe-up-25">
+        <div data-wajik="swipe-up-tr(40px)">
           <a href="${item.url}" class="col" target="_blank">
             <img class="main" src="${item.src}" alt="${item.name}" />
             <h5>${item.name}</h5>
