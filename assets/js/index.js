@@ -1,12 +1,8 @@
 // LOADING
 document.addEventListener("readystatechange", () => {
   const loaderWrapper = document.querySelector(".loader-wrapper");
-  const content = document.querySelector("#home");
 
   if (document.readyState !== "complete") {
-    content.style.visibility = "hidden";
-  } else {
-    content.style.visibility = "visible";
     loaderWrapper.classList.add("disable");
   }
 });
