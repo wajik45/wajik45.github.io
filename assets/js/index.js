@@ -1,13 +1,18 @@
 // LOADING
 document.addEventListener("readystatechange", () => {
-  const loaderMain = document.querySelector(".loader-main");
+  const loaderWrapper = document.querySelector(".loader-wrapper");
+  const content = document.querySelector("#home");
 
   if (document.readyState !== "complete") {
-    return loaderMain.classList.add("show");
+    content.style.visibility = "hidden";
+  } else {
+    content.style.visibility = "visible";
+    loaderWrapper.classList.add("disable");
   }
-
-  return loaderMain.classList.remove("show");
 });
+
+document.querySelector("footer .footer-year").innerHTML =
+  new Date().getFullYear();
 
 // TO-TOP
 const toTop = {
@@ -138,9 +143,12 @@ new Navbar().run();
 // ABOUT
 function setUmur() {
   const umur = document.querySelector(".about .umur");
-  const now = Date.now();
-  const born = new Date("02/28/2005");
-  const age = new Date(now).getFullYear() - born.getFullYear();
+  const dob = new Date("02/28/2005");
+  const monthDiff = Date.now() - dob.getTime();
+  const ageDt = new Date(monthDiff);
+  const year = ageDt.getUTCFullYear();
+  const age = Math.abs(year - 1970);
+
   umur.innerHTML = `${age}`;
 }
 
@@ -154,20 +162,12 @@ const skills = {
       name: "CorelDRAW",
     },
     {
-      src: "assets/img/icons/skills/photoshop.png",
-      name: "Photoshop",
-    },
-    {
       src: "assets/img/icons/skills/html.png",
       name: "HTML",
     },
     {
       src: "assets/img/icons/skills/css.png",
       name: "CSS",
-    },
-    {
-      src: "assets/img/icons/skills/sass.png",
-      name: "SASS",
     },
     {
       src: "assets/img/icons/skills/js.png",
@@ -192,10 +192,6 @@ const skills = {
     {
       src: "assets/img/icons/skills/express.png",
       name: "ExpressJS",
-    },
-    {
-      src: "assets/img/icons/skills/svelte.svg",
-      name: "Svelte",
     },
   ],
 
@@ -224,10 +220,6 @@ const portfolio = {
         {
           src: "assets/img/icons/skills/cdr.png",
           name: "CorelDRAW",
-        },
-        {
-          src: "assets/img/icons/skills/photoshop.png",
-          name: "Photoshop",
         },
       ],
     },

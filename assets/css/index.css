@@ -1,12 +1,16 @@
 /* LOADERS */
-.loader-main {
-  position: absolute;
-  display: none;
+.loader-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
 }
 
-.loader-main.show {
-  position: absolute;
-  display: block;
+.loader-wrapper.disable {
+  display: none;
 }
 
 .loader-lg {
@@ -216,9 +220,12 @@ a.button:hover,
   width: 2rem;
   height: 2rem;
   background-color: var(--quaternary);
-  border-radius: 5px;
+  border: 1px solid var(--light);
+  border-radius: 100%;
   cursor: pointer;
   position: fixed;
+  fill: var(--light);
+  padding: 0.2rem;
   bottom: 1rem;
   right: 1rem;
   transform: translateX(200%);
